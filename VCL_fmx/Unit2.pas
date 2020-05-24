@@ -10,7 +10,8 @@ uses
   FireDAC.DApt.Intf, FireDAC.Stan.Async, FireDAC.DApt, Data.DB, FireDAC.Comp.DataSet,
   FireDAC.UI.Intf,
   FireDAC.FMXUI.Wait, FireDAC.Comp.UI, FireDAC.Stan.ExprFuncs, FireDAC.Phys.SQLiteDef, FireDAC.Phys,
-  FireDAC.Phys.SQLite, FireDAC.Stan.Def, FireDAC.Stan.Pool, FMX.TreeView, FMX.Layouts;
+  FireDAC.Phys.SQLite, FireDAC.Stan.Def, FireDAC.Stan.Pool, FMX.TreeView, FMX.Layouts, FireDAC.Phys.IBWrapper,
+  FMX.TabControl, FireDAC.Phys.IBBase, FMX.Controls.Presentation, FMX.Edit;
 
 type
   TForm2 = class(TForm)
@@ -29,6 +30,11 @@ type
     TreeViewItem7: TTreeViewItem;
     TreeViewItem8: TTreeViewItem;
     TreeViewItem9: TTreeViewItem;
+    FDIBValidate1: TFDIBValidate;
+    Panel1: TPanel;
+    Edit1: TEdit;
+    SearchEditButton1: TSearchEditButton;
+    procedure TreeView1Change(Sender: TObject);
   private
     { Déclarations privées }
   public
@@ -41,6 +47,8 @@ type
 implementation
 
 {$R *.fmx}
+{$R *.Windows.fmx MSWINDOWS}
+
 { TForm2 }
 
 constructor TForm2.Create(const ACliHandle: Pointer);
@@ -79,6 +87,11 @@ begin
   finally
     oForm.DisposeOf;
   end;
+end;
+
+procedure TForm2.TreeView1Change(Sender: TObject);
+begin
+  ShowMessage(TreeView1.Selected.Text);
 end;
 
 end.

@@ -9,8 +9,8 @@ object Form2: TForm2
   FormFactor.Devices = [Desktop]
   DesignerMasterStyle = 0
   object Expander1: TExpander
-    Position.X = 232.000000000000000000
-    Position.Y = 72.000000000000000000
+    Position.X = 296.000000000000000000
+    Position.Y = 24.000000000000000000
     ShowCheck = False
     Size.Width = 305.000000000000000000
     Size.Height = 129.000000000000000000
@@ -19,96 +19,123 @@ object Form2: TForm2
     TabOrder = 0
     ContentSize = '104'
   end
-  object TreeView1: TTreeView
-    Position.X = 16.000000000000000000
-    Position.Y = 24.000000000000000000
-    Size.Width = 169.000000000000000000
-    Size.Height = 185.000000000000000000
+  object Panel1: TPanel
+    Align = Left
+    Size.Width = 233.000000000000000000
+    Size.Height = 480.000000000000000000
     Size.PlatformDefault = False
-    TabOrder = 6
-    Viewport.Width = 165.000000000000000000
-    Viewport.Height = 181.000000000000000000
-    object TreeViewItem1: TTreeViewItem
-      IsChecked = False
-      IsExpanded = True
-      IsSelected = False
-      TabOrder = 0
-      Text = 'TreeViewItem1'
-      object TreeViewItem2: TTreeViewItem
+    TabOrder = 18
+    object TreeView1: TTreeView
+      Align = Client
+      Size.Width = 233.000000000000000000
+      Size.Height = 458.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      OnChange = TreeView1Change
+      Viewport.Width = 229.000000000000000000
+      Viewport.Height = 454.000000000000000000
+      object TreeViewItem1: TTreeViewItem
         IsChecked = False
-        IsExpanded = False
+        IsExpanded = True
         IsSelected = False
         TabOrder = 0
-        Text = 'TreeViewItem2'
+        Text = 'TreeViewItem1'
+        object TreeViewItem2: TTreeViewItem
+          IsChecked = False
+          IsExpanded = False
+          IsSelected = False
+          TabOrder = 0
+          Text = 'TreeViewItem2'
+        end
+        object TreeViewItem3: TTreeViewItem
+          IsChecked = False
+          IsExpanded = False
+          IsSelected = False
+          TabOrder = 1
+          Text = 'TreeViewItem3'
+        end
+        object TreeViewItem4: TTreeViewItem
+          IsChecked = False
+          IsExpanded = False
+          IsSelected = False
+          TabOrder = 2
+          Text = 'TreeViewItem4'
+        end
       end
-      object TreeViewItem3: TTreeViewItem
+      object TreeViewItem5: TTreeViewItem
         IsChecked = False
         IsExpanded = False
         IsSelected = False
         TabOrder = 1
-        Text = 'TreeViewItem3'
+        Text = 'TreeViewItem5'
+        object TreeViewItem6: TTreeViewItem
+          IsChecked = False
+          IsExpanded = False
+          IsSelected = False
+          TabOrder = 0
+          Text = 'TreeViewItem6'
+        end
       end
-      object TreeViewItem4: TTreeViewItem
+      object TreeViewItem7: TTreeViewItem
         IsChecked = False
         IsExpanded = False
         IsSelected = False
         TabOrder = 2
-        Text = 'TreeViewItem4'
+        Text = 'TreeViewItem7'
       end
-    end
-    object TreeViewItem5: TTreeViewItem
-      IsChecked = False
-      IsExpanded = False
-      IsSelected = False
-      TabOrder = 1
-      Text = 'TreeViewItem5'
-      object TreeViewItem6: TTreeViewItem
+      object TreeViewItem8: TTreeViewItem
         IsChecked = False
         IsExpanded = False
         IsSelected = False
-        TabOrder = 0
-        Text = 'TreeViewItem6'
+        TabOrder = 3
+        Text = 'TreeViewItem8'
+        object TreeViewItem9: TTreeViewItem
+          IsChecked = False
+          IsExpanded = False
+          IsSelected = False
+          TabOrder = 0
+          Text = 'TreeViewItem9'
+        end
       end
     end
-    object TreeViewItem7: TTreeViewItem
-      IsChecked = False
-      IsExpanded = False
-      IsSelected = False
+    object Edit1: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Top
       TabOrder = 2
-      Text = 'TreeViewItem7'
-    end
-    object TreeViewItem8: TTreeViewItem
-      IsChecked = False
-      IsExpanded = False
-      IsSelected = False
-      TabOrder = 3
-      Text = 'TreeViewItem8'
-      object TreeViewItem9: TTreeViewItem
-        IsChecked = False
-        IsExpanded = False
-        IsSelected = False
+      Size.Width = 233.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      object SearchEditButton1: TSearchEditButton
+        CanFocus = False
+        Cursor = crArrow
+        Size.Width = 28.000000000000000000
+        Size.Height = 18.000000000000000000
+        Size.PlatformDefault = False
         TabOrder = 0
-        Text = 'TreeViewItem9'
       end
     end
   end
   object FDQuery1: TFDQuery
-    Left = 40
-    Top = 232
+    Left = 136
+    Top = 280
   end
   object FDGUIxWaitCursor1: TFDGUIxWaitCursor
     Provider = 'FMX'
-    Left = 224
-    Top = 304
+    Left = 352
+    Top = 368
   end
   object FDPhysSQLiteDriverLink1: TFDPhysSQLiteDriverLink
-    Left = 312
-    Top = 232
+    Left = 328
+    Top = 288
   end
   object FDConnection1: TFDConnection
     Params.Strings = (
       'DriverID=SQLite')
-    Left = 40
-    Top = 320
+    Left = 64
+    Top = 368
+  end
+  object FDIBValidate1: TFDIBValidate
+    Left = 544
+    Top = 376
   end
 end

@@ -24,4 +24,12 @@ object Form1: TForm1
     TabOrder = 0
     OnClick = Button1Click
   end
+  object CardPanel1: TCardPanel
+    Left = 168
+    Top = 56
+    Width = 300
+    Height = 200
+    Caption = 'CardPanel1'
+    TabOrder = 1
+  end
 end
