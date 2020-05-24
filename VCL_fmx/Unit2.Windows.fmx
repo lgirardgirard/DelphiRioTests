@@ -1,0 +1,12 @@
+inherited Form2_Windows: TForm2_Windows
+  DesignerMasterStyle = 0
+  inherited Expander1: TExpander
+    ContentSize = '104'
+  end
+  inherited Panel1: TPanel
+    inherited TreeView1: TTreeView
+      Viewport.Width = 229.000000000000000000
+      Viewport.Height = 454.000000000000000000
+    end
+  end
+end
