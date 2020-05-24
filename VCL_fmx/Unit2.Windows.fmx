@@ -5,8 +5,8 @@ inherited Form2_Windows: TForm2_Windows
   end
   inherited Panel1: TPanel
     inherited TreeView1: TTreeView
-      Viewport.Width = 229.000000000000000000
-      Viewport.Height = 454.000000000000000000
+      Viewport.Width = 181.000000000000000000
+      Viewport.Height = 453.000000000000000000
     end
   end
 end

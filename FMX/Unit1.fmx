@@ -1,0 +1,226 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 413
+  ClientWidth = 995
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Password = True
+    Position.X = 88.000000000000000000
+    Position.Y = 112.000000000000000000
+    object PasswordEditButton1: TPasswordEditButton
+      CanFocus = False
+      Cursor = crArrow
+      Size.Width = 28.000000000000000000
+      Size.Height = 18.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+    end
+  end
+  object CornerButton1: TCornerButton
+    Position.X = 88.000000000000000000
+    Position.Y = 144.000000000000000000
+    Sides = [Top, Left, Bottom, Right]
+    TabOrder = 2
+    Text = 'CornerButton1'
+    XRadius = 3.000000000000000000
+    YRadius = 3.000000000000000000
+    OnClick = CornerButton1Click
+  end
+  object Label1: TLabel
+    Position.X = 24.000000000000000000
+    Position.Y = 24.000000000000000000
+    Text = 'Projet FMX'
+    TabOrder = 3
+  end
+  object StringGrid1: TStringGrid
+    Align = Bottom
+    CanFocus = True
+    ClipChildren = True
+    Padding.Left = 5.000000000000000000
+    Padding.Right = 5.000000000000000000
+    Padding.Bottom = 5.000000000000000000
+    Margins.Left = 5.000000000000000000
+    Margins.Top = 5.000000000000000000
+    Margins.Right = 5.000000000000000000
+    Margins.Bottom = 5.000000000000000000
+    Position.X = 5.000000000000000000
+    Position.Y = 227.000000000000000000
+    Size.Width = 985.000000000000000000
+    Size.Height = 181.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Viewport.Width = 965.000000000000000000
+    Viewport.Height = 156.000000000000000000
+    object Column1: TColumn
+    end
+    object ProgressColumn1: TProgressColumn
+    end
+    object CheckColumn1: TCheckColumn
+    end
+    object DateColumn1: TDateColumn
+    end
+    object TimeColumn1: TTimeColumn
+    end
+    object PopupColumn1: TPopupColumn
+    end
+    object CurrencyColumn1: TCurrencyColumn
+    end
+    object FloatColumn1: TFloatColumn
+      ShowThousandSeparator = False
+    end
+    object IntegerColumn1: TIntegerColumn
+    end
+    object GlyphColumn1: TGlyphColumn
+    end
+  end
+  object Grid1: TGrid
+    CanFocus = True
+    ClipChildren = True
+    Position.X = 368.000000000000000000
+    Position.Y = 88.000000000000000000
+    TabOrder = 5
+    Viewport.Width = 196.000000000000000000
+    Viewport.Height = 75.000000000000000000
+  end
+  object ListBox1: TListBox
+    Position.X = 632.000000000000000000
+    Position.Y = 48.000000000000000000
+    StyleLookup = 'listboxstyle'
+    TabOrder = 6
+    AlternatingRowBackground = True
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = 'listboxitemdetaillabel'
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    GroupingKind = Grouped
+    ShowCheckboxes = True
+    Viewport.Width = 196.000000000000000000
+    Viewport.Height = 156.000000000000000000
+    object ListBoxGroupHeader1: TListBoxGroupHeader
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      StyledSettings = [Family, Size, FontColor, Other]
+      TabOrder = 0
+      Text = 'Groupe'
+    end
+    object ListBoxItem1: TListBoxItem
+      Position.Y = 19.000000000000000000
+      TabOrder = 1
+      Text = 'ListBoxItem1'
+    end
+    object ListBoxItem2: TListBoxItem
+      Position.Y = 38.000000000000000000
+      TabOrder = 2
+      Text = 'ListBoxItem2'
+    end
+    object ListBoxGroupHeader2: TListBoxGroupHeader
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      StyledSettings = [Family, Size, FontColor, Other]
+      Position.Y = 57.000000000000000000
+      TabOrder = 3
+      Text = 'Goupe2'
+    end
+    object ListBoxItem3: TListBoxItem
+      Position.Y = 76.000000000000000000
+      TabOrder = 4
+      Text = 'ListBoxItem3'
+    end
+    object ListBoxItem4: TListBoxItem
+      Position.Y = 95.000000000000000000
+      TabOrder = 5
+      Text = 'ListBoxItem4'
+    end
+    object ListBoxItem5: TListBoxItem
+      Position.Y = 114.000000000000000000
+      TabOrder = 6
+      Text = 'ListBoxItem5'
+    end
+    object ListBoxHeader1: TListBoxHeader
+      Size.Width = 196.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+    end
+  end
+  object ComboEdit1: TComboEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 7
+    ItemHeight = 19.000000000000000000
+    ItemIndex = -1
+    Position.X = 248.000000000000000000
+    Position.Y = 48.000000000000000000
+  end
+  object ComboBox1: TComboBox
+    Position.X = 240.000000000000000000
+    Position.Y = 96.000000000000000000
+    TabOrder = 8
+    object ListBoxGroupHeader3: TListBoxGroupHeader
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TabOrder = 0
+      Text = 'ListBoxGroupHeader3'
+    end
+    object ListBoxItem6: TListBoxItem
+      TabOrder = 1
+      Text = 'ListBoxItem6'
+    end
+    object ListBoxItem7: TListBoxItem
+      TabOrder = 2
+      Text = 'ListBoxItem7'
+    end
+    object ListBoxItem8: TListBoxItem
+      TabOrder = 3
+      Text = 'ListBoxItem8'
+    end
+    object ListBoxGroupHeader4: TListBoxGroupHeader
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TabOrder = 4
+      Text = 'ListBoxGroupHeader4'
+    end
+    object ListBoxItem9: TListBoxItem
+      TabOrder = 5
+      Text = 'ListBoxItem9'
+    end
+    object ListBoxItem10: TListBoxItem
+      TabOrder = 6
+      Text = 'ListBoxItem10'
+    end
+  end
+  object CheckBox1: TCheckBox
+    Position.X = 864.000000000000000000
+    Position.Y = 32.000000000000000000
+    TabOrder = 9
+    Text = 'CheckBox1'
+  end
+  object Switch1: TSwitch
+    IsChecked = False
+    Position.X = 872.000000000000000000
+    Position.Y = 88.000000000000000000
+    TabOrder = 10
+  end
+  object NumberBox1: TNumberBox
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 11
+    Cursor = crIBeam
+    Position.X = 872.000000000000000000
+    Position.Y = 160.000000000000000000
+  end
+  object SpinBox1: TSpinBox
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 12
+    Cursor = crIBeam
+    Position.X = 880.000000000000000000
+    Position.Y = 192.000000000000000000
+  end
+  object AniIndicator1: TAniIndicator
+    StyleLookup = 'aniindicatorstyle'
+    Position.X = 416.000000000000000000
+    Position.Y = 32.000000000000000000
+    Style = Circular
+  end
+end

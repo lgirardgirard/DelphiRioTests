@@ -1,0 +1,29 @@
+inherited Form1_Windows: TForm1_Windows
+  DesignerMasterStyle = 0
+  inherited StringGrid1: TStringGrid
+    Viewport.Width = 985.000000000000000000
+    Viewport.Height = 181.000000000000000000
+  end
+  inherited Grid1: TGrid
+    Viewport.Width = 200.000000000000000000
+    Viewport.Height = 100.000000000000000000
+  end
+  inherited ListBox1: TListBox
+    Viewport.Width = 196.000000000000000000
+    Viewport.Height = 156.000000000000000000
+    inherited ListBoxGroupHeader1: TListBoxGroupHeader
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+    inherited ListBoxGroupHeader2: TListBoxGroupHeader
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+  end
+  inherited ComboBox1: TComboBox
+    inherited ListBoxGroupHeader3: TListBoxGroupHeader
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+    inherited ListBoxGroupHeader4: TListBoxGroupHeader
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+  end
+end

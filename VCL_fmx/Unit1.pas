@@ -68,8 +68,8 @@ var
 begin
   // tentative de connexion à la base de données
   try
-    databasename :=
-      'C:\Users\Administrateur\Mes sources\SourcesDelphi\DelphiRioTests\VCL_fmx\database\test.SQLite';
+    databasename :=  '..\..\database\test.SQLite';
+//      'C:\Users\Administrateur\Mes sources\SourcesDelphi\DelphiRioTests\VCL_fmx\database\test.SQLite';
     DataModule3.FDConnection1.Connected       := False;
     DataModule3.FDConnection1.Params.Database := databasename;
     DataModule3.FDConnection1.Connected       := True;

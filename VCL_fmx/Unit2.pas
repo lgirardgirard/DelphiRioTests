@@ -30,11 +30,12 @@ type
     TreeViewItem7: TTreeViewItem;
     TreeViewItem8: TTreeViewItem;
     TreeViewItem9: TTreeViewItem;
-    FDIBValidate1: TFDIBValidate;
     Panel1: TPanel;
     Edit1: TEdit;
     SearchEditButton1: TSearchEditButton;
-    procedure TreeView1Change(Sender: TObject);
+    procedure SearchEditButton1Click(Sender: TObject);
+    procedure Edit1Validate(Sender: TObject; var Text: string);
+    procedure Edit1Typing(Sender: TObject);
   private
     { Déclarations privées }
   public
@@ -48,7 +49,6 @@ implementation
 
 {$R *.fmx}
 {$R *.Windows.fmx MSWINDOWS}
-
 { TForm2 }
 
 constructor TForm2.Create(const ACliHandle: Pointer);
@@ -65,16 +65,34 @@ begin
     FDQuery1.Active := true;
   except
     on E: Exception do
-      MessageDlg('Impossible d''ouvrir la requête' + chr(13) + E.Message, TMsgDlgType.mtWarning,
-        [TMsgDlgBtn.mbOK], 0);
+      MessageDlg('Impossible d''ouvrir la requête' + chr(13) + E.Message, TMsgDlgType.mtWarning, [TMsgDlgBtn.mbOK], 0);
   end;
 end;
 
-destructor TForm2.Destroy;
+destructor TForm2.destroy;
 begin
   FDConnection1.Connected := false;
 
-  inherited Destroy;
+  inherited destroy;
+end;
+
+procedure TForm2.Edit1Typing(Sender: TObject);
+begin
+  SearchEditButton1.OnClick(Sender);
+end;
+
+procedure TForm2.Edit1Validate(Sender: TObject; var Text: string);
+begin
+  SearchEditButton1.OnClick(Sender);
+end;
+
+procedure TForm2.SearchEditButton1Click(Sender: TObject);
+var
+  treeViewItem: TTreeViewItem;
+begin
+  treeViewItem := TreeView1.ItemByText(Edit1.Text);
+  if treeViewItem <> nil then
+    treeViewItem.Select;
 end;
 
 class procedure TForm2.ShowData(ACliHandle: Pointer);
@@ -87,11 +105,6 @@ begin
   finally
     oForm.DisposeOf;
   end;
-end;
-
-procedure TForm2.TreeView1Change(Sender: TObject);
-begin
-  ShowMessage(TreeView1.Selected.Text);
 end;
 
 end.

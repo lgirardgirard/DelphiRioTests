@@ -1,0 +1,64 @@
+object Form4: TForm4
+  Left = 0
+  Top = 0
+  Caption = 'Form4'
+  ClientHeight = 113
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnActivate = FormActivate
+  DesignerMasterStyle = 0
+  object CornerButton1: TCornerButton
+    Position.X = 536.000000000000000000
+    Position.Y = 32.000000000000000000
+    Sides = [Top, Left, Bottom, Right]
+    TabOrder = 0
+    Text = 'Quitter'
+    XRadius = 3.000000000000000000
+    YRadius = 3.000000000000000000
+    OnClick = CornerButton1Click
+  end
+  object ProgressBar1: TProgressBar
+    Orientation = Horizontal
+    Position.X = 24.000000000000000000
+    Position.Y = 72.000000000000000000
+    Size.Width = 593.000000000000000000
+    Size.Height = 20.000000000000000000
+    Size.PlatformDefault = False
+    OnPaint = ProgressBar1Paint
+  end
+  object Button1: TButton
+    Position.X = 24.000000000000000000
+    Position.Y = 32.000000000000000000
+    TabOrder = 2
+    Text = 'Start'
+    OnClick = Button1Click
+  end
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 3
+    Position.X = 160.000000000000000000
+    Position.Y = 32.000000000000000000
+  end
+  object SpinBox1: TSpinBox
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 6
+    Cursor = crIBeam
+    Position.X = 272.000000000000000000
+    Position.Y = 32.000000000000000000
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 20
+    Top = 5
+    object LinkControlToPropertyValue: TLinkControlToProperty
+      Category = 'Liaisons rapides'
+      Control = SpinBox1
+      Track = False
+      Component = ProgressBar1
+      ComponentProperty = 'Value'
+    end
+  end
+end
