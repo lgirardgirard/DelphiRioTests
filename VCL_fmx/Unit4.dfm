@@ -25,8 +25,13 @@ object splashScreen: TsplashScreen
     Align = alClient
     Alignment = taCenter
     Caption = 'Mon SplashScreen'
-    ExplicitWidth = 438
-    ExplicitHeight = 230
+    ExplicitWidth = 87
+    ExplicitHeight = 13
+  end
+  object ActivityIndicator1: TActivityIndicator
+    Left = 120
+    Top = 32
+    Animate = True
   end
   object Timer1: TTimer
     OnTimer = Timer1Timer
