@@ -1,0 +1,28 @@
+// ******************************************************************************
+// * This is an automatically generated file containing the ribbon resource for *
+// * your application.                                                          *
+// ******************************************************************************
+
+#include ".\monribbon.h"
+
+STRINGTABLE 
+BEGIN
+    actQuitter_LabelTitle_RESID L"Quitter" /* LabelTitle actQuitter_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    tabDOnneesContraintes_LabelTitle_RESID L"Donn\x00e9es && Contraintes" /* LabelTitle tabDOnneesContraintes_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    tabEconomic_LabelTitle_RESID L"Economic" /* LabelTitle tabEconomic_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    InternalCmd2_LabelTitle_RESID L"Label:InternalCmd2" /* LabelTitle InternalCmd2_LabelTitle_RESID: (null) */
+END
+
+APPLICATION_RIBBON    UIFILE    "C:\\Users\\lgirard\\Documents\\GitHUB\\DelphiRioTests\\RibbonFramework2\\Ribbon\\monribbon.bml"

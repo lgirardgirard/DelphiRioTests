@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Application xmlns="http://schemas.microsoft.com/windows/2009/Ribbon">
+  <Application.Commands>
+    <Command Name="actAbout" Symbol="actAbout" Id="20">
+      <Command.LabelTitle>
+        <String Id="2">A propos</String>
+      </Command.LabelTitle>
+      <Command.TooltipTitle>
+        <String Id="3">A propos (F1)</String>
+      </Command.TooltipTitle>
+    </Command>
+    <Command Name="actAjustements" Id="24">
+      <Command.LabelTitle>
+        <String Id="4">Ajustement</String>
+      </Command.LabelTitle>
+    </Command>
+    <Command Name="actBdd" Id="36" LabelTitle="Base de données">
+      <Command.SmallImages>
+        <Image>Res/data-16.bmp</Image>
+      </Command.SmallImages>
+      <Command.LargeImages>
+        <Image>Res/data-32.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="actBddMaj" Id="38" LabelTitle="Mise à jour de la base">
+      <Command.SmallImages>
+        <Image>Res/data_refresh-16.bmp</Image>
+      </Command.SmallImages>
+      <Command.LargeImages>
+        <Image>Res/data_refresh-32.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="actBddNew" Id="37" LabelTitle="Nouvelle base de données">
+      <Command.SmallImages>
+        <Image>Res/data_new-16.bmp</Image>
+      </Command.SmallImages>
+      <Command.LargeImages>
+        <Image>Res/data_new-32.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="actBddSQL" Id="39" LabelTitle="Editeur SQL">
+      <Command.SmallImages>
+        <Image>Res/data_view-16.bmp</Image>
+      </Command.SmallImages>
+      <Command.LargeImages>
+        <Image>Res/data_view-32.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="actCategories" Id="26">
+      <Command.LabelTitle>
+        <String Id="5">Catégories</String>
+      </Command.LabelTitle>
+      <Command.TooltipTitle>
+        <String Id="6">Catégories</String>
+      </Command.TooltipTitle>
+      <Command.TooltipDescription>
+        <String Id="7">Catégories horaires et logistiques des sites logistiques</String>
+      </Command.TooltipDescription>
+      <Command.SmallImages>
+        <Image Id="8">Res/flag_blue_unknown-16.bmp</Image>
+      </Command.SmallImages>
+      <Command.LargeImages>
+        <Image Id="9">Res/flag_blue_unknown-32.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="actChangeUser" Id="10">
+      <Command.LabelTitle>
+        <String Id="10">Changer d&apos;utilisateur</String>
+      </Command.LabelTitle>
+      <Command.SmallImages>
+        <Image Id="11">Res/id_card_replace-16.bmp</Image>
+      </Command.SmallImages>
+      <Command.LargeImages>
+        <Image Id="12">Res/id_card_replace-32.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="actConditionnements" Id="21">
+      <Command.LabelTitle>
+        <String Id="13">Conditionnements</String>
+      </Command.LabelTitle>
+      <Command.TooltipTitle>
+        <String Id="14">Conditionnements</String>
+      </Command.TooltipTitle>
+      <Command.TooltipDescription>
+        <String Id="15">Gestion des conditionnements des produits</String>
+      </Command.TooltipDescription>
+      <Command.SmallImages>
+        <Image Id="16">Res/package_ok-16.bmp</Image>
+      </Command.SmallImages>
+      <Command.LargeImages>
+        <Image Id="17">Res/package_ok-32.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="actExportStd" Id="3">
+      <Command.LabelTitle>
+        <String Id="18">Exportation standard</String>
+      </Command.LabelTitle>
+      <Command.SmallImages>
+        <Image Id="19">Res/export2-16.bmp</Image>
+      </Command.SmallImages>
+      <Command.LargeImages>
+        <Image Id="20">Res/export2-32.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="actFrequences" Id="29">
+      <Command.LabelTitle>
+        <String Id="21">Fréquences</String>
+      </Command.LabelTitle>
+      <Command.TooltipTitle>
+        <String Id="22">Fréquences</String>
+      </Command.TooltipTitle>
+      <Command.SmallImages>
+        <Image Id="23">Res/flag_blue_clock-16.bmp</Image>
+      </Command.SmallImages>
+      <Command.LargeImages>
+        <Image Id="24">Res/flag_blue_clock-32.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="actGroupes" Id="22">
+      <Command.LabelTitle>
+        <String Id="25">Groupes</String>
+      </Command.LabelTitle>
+      <Command.TooltipTitle>
+        <String Id="26">Groupes</String>
+      </Command.TooltipTitle>
+      <Command.TooltipDescription>
+        <String Id="27">Gestion des groupes de produit</String>
+      </Command.TooltipDescription>
+      <Command.SmallImages>
+        <Image Id="28">Res/package_delete-16.bmp</Image>
+      </Command.SmallImages>
+      <Command.LargeImages>
+        <Image Id="29">Res/package_delete-32.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="actGroupesSites" Id="27">
+      <Command.LabelTitle>
+        <String Id="30">Groupes de sites</String>
+      </Command.LabelTitle>
+      <Command.TooltipTitle>
+        <String Id="31">Groupes de sites</String>
+      </Command.TooltipTitle>
+      <Command.SmallImages>
+        <Image Id="32">Res/flag_blue_options-16.bmp</Image>
+      </Command.SmallImages>
+      <Command.LargeImages>
+        <Image Id="33">Res/flag_blue_options-32.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="actImportStd" Id="2">
+      <Command.LabelTitle>
+        <String Id="34">Importation standard</String>
+      </Command.LabelTitle>
+      <Command.SmallImages>
+        <Image Id="35">Res/import2-16.bmp</Image>
+      </Command.SmallImages>
+      <Command.LargeImages>
+        <Image Id="36">Res/import2-32.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="actOpenArchive" Id="11">
+      <Command.LabelTitle>
+        <String Id="37">Ouvrir une archive</String>
+      </Command.LabelTitle>
+      <Command.TooltipTitle>
+        <String Id="38">Ouvrir une archive (Ctrl+O)</String>
+      </Command.TooltipTitle>
+      <Command.SmallImages>
+        <Image Id="39">Res/folder-yellow_open-16.bmp</Image>
+      </Command.SmallImages>
+      <Command.LargeImages>
+        <Image Id="40">Res/folder-yellow_open-32.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="actPrestations" Id="15">
+      <Command.LabelTitle>
+        <String Id="41">Prestations</String>
+      </Command.LabelTitle>
+      <Command.TooltipTitle>
+        <String Id="42">Prestations</String>
+      </Command.TooltipTitle>
+      <Command.TooltipDescription>
+        <String Id="43">Gestion des prestations</String>
+      </Command.TooltipDescription>
+      <Command.SmallImages>
+        <Image Id="44">Res/package_options-16.bmp</Image>
+      </Command.SmallImages>
+      <Command.LargeImages>
+        <Image Id="45">Res/package_options-32.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="actProduits" Id="14">
+      <Command.LabelTitle>
+        <String Id="46">Produits</String>
+      </Command.LabelTitle>
+      <Command.TooltipTitle>
+        <String Id="47">Produits (Alt+P)</String>
+      </Command.TooltipTitle>
+      <Command.TooltipDescription>
+        <String Id="48">Gestion des produits</String>
+      </Command.TooltipDescription>
+      <Command.SmallImages>
+        <Image Id="49">Res/package-16.bmp</Image>
+      </Command.SmallImages>
+      <Command.LargeImages>
+        <Image Id="50">Res/package-32.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="actQuitter" Id="13">
+      <Command.LabelTitle>
+        <String Id="51">Quitter</String>
+      </Command.LabelTitle>
+      <Command.TooltipTitle>
+        <String Id="52">Quitter (ALT+Q)</String>
+      </Command.TooltipTitle>
+      <Command.TooltipDescription>
+        <String Id="53">Quitter l&apos;application</String>
+      </Command.TooltipDescription>
+      <Command.SmallImages>
+        <Image Id="54">Res/Action-exit-icon-16.bmp</Image>
+      </Command.SmallImages>
+      <Command.LargeImages>
+        <Image Id="55">Res/Action-exit-icon-32.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="actRognage" Id="23">
+      <Command.LabelTitle>
+        <String Id="56">Rognage</String>
+      </Command.LabelTitle>
+      <Command.TooltipTitle>
+        <String Id="57">Rognage</String>
+      </Command.TooltipTitle>
+      <Command.TooltipDescription>
+        <String Id="58">Gestion du rognage des quantités</String>
+      </Command.TooltipDescription>
+    </Command>
+    <Command Name="actSaveArchive" Id="12">
+      <Command.LabelTitle>
+        <String Id="59">Archiver les données</String>
+      </Command.LabelTitle>
+      <Command.TooltipTitle>
+        <String Id="60">Archivers les données (Ctrl+S)</String>
+      </Command.TooltipTitle>
+      <Command.SmallImages>
+        <Image Id="61">Res/document-save-5-16.bmp</Image>
+      </Command.SmallImages>
+      <Command.LargeImages>
+        <Image Id="62">Res/document-save-5-32.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="actSites" Id="25">
+      <Command.LabelTitle>
+        <String Id="63">Sites</String>
+      </Command.LabelTitle>
+      <Command.TooltipTitle>
+        <String Id="64">Sites (ALT+S)</String>
+      </Command.TooltipTitle>
+      <Command.TooltipDescription>
+        <String Id="65">Gestion des sites logistiques</String>
+      </Command.TooltipDescription>
+      <Command.SmallImages>
+        <Image Id="66">Res/flag_blue-16.bmp</Image>
+      </Command.SmallImages>
+      <Command.LargeImages>
+        <Image Id="67">Res/flag_blue-32.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="actTypesSItes" Id="28">
+      <Command.LabelTitle>
+        <String Id="68">Types de sites</String>
+      </Command.LabelTitle>
+      <Command.TooltipTitle>
+        <String Id="69">Types de sites</String>
+      </Command.TooltipTitle>
+      <Command.SmallImages>
+        <Image Id="70">Res/flag_blue_clock_unknown-16.bmp</Image>
+      </Command.SmallImages>
+      <Command.LargeImages>
+        <Image Id="71">Res/flag_blue_clock_unknown-32.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="actVehicules" Id="31">
+      <Command.LabelTitle>
+        <String Id="72">Véhicules</String>
+      </Command.LabelTitle>
+      <Command.TooltipTitle>
+        <String Id="73">Véhicules (Alt+V)</String>
+      </Command.TooltipTitle>
+      <Command.TooltipDescription>
+        <String Id="74">Gestion des véhicules</String>
+      </Command.TooltipDescription>
+      <Command.SmallImages>
+        <Image Id="75">Res/truck_blue-16.bmp</Image>
+      </Command.SmallImages>
+      <Command.LargeImages>
+        <Image Id="76">Res/truck_blue-32.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdRecentItems" Id="19">
+      <Command.LabelTitle>
+        <String Id="77">Archives récentes</String>
+      </Command.LabelTitle>
+    </Command>
+    <Command Name="grpBdd" Id="35" LabelTitle="Base de données"/>
+    <Command Name="grpCatalogues" Id="17">
+      <Command.LabelTitle>
+        <String Id="78">Catalogues</String>
+      </Command.LabelTitle>
+    </Command>
+    <Command Name="grpProduits" Id="7">
+      <Command.LabelTitle>
+        <String Id="79">Produits</String>
+      </Command.LabelTitle>
+      <Command.SmallImages>
+        <Image Id="80">Res/package-16.bmp</Image>
+      </Command.SmallImages>
+      <Command.LargeImages>
+        <Image Id="81">Res/package-32.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="grpSites" Id="8">
+      <Command.LabelTitle>
+        <String Id="82">Sites</String>
+      </Command.LabelTitle>
+    </Command>
+    <Command Name="grpVacations" Id="18">
+      <Command.LabelTitle>
+        <String Id="83">Vacations</String>
+      </Command.LabelTitle>
+    </Command>
+    <Command Name="grpVehicules" Id="9">
+      <Command.LabelTitle>
+        <String Id="84">Véhicules</String>
+      </Command.LabelTitle>
+    </Command>
+    <Command Name="grpZonage" Id="16">
+      <Command.LabelTitle>
+        <String Id="85">Zonage</String>
+      </Command.LabelTitle>
+    </Command>
+    <Command Name="tabCartographie" Id="32">
+      <Command.LabelTitle>
+        <String Id="86">Cartograpie</String>
+      </Command.LabelTitle>
+    </Command>
+    <Command Name="tabData" Id="4">
+      <Command.LabelTitle>
+        <String Id="87">Données &amp;&amp; Contraintes</String>
+      </Command.LabelTitle>
+    </Command>
+    <Command Name="tabEconomic" Id="6">
+      <Command.LabelTitle>
+        <String Id="88">Economic</String>
+      </Command.LabelTitle>
+    </Command>
+    <Command Name="tabOperations" Id="33">
+      <Command.LabelTitle>
+        <String Id="89">Opérations</String>
+      </Command.LabelTitle>
+    </Command>
+    <Command Name="tabOutils" Id="34" LabelTitle="Outils"/>
+    <Command Name="tabParametres" Id="30">
+      <Command.LabelTitle>
+        <String Id="90">Paramétrage</String>
+      </Command.LabelTitle>
+    </Command>
+  </Application.Commands>
+  <Application.Views>
+    <Ribbon>
+      <Ribbon.ApplicationMenu>
+        <ApplicationMenu>
+          <ApplicationMenu.RecentItems>
+            <RecentItems CommandName="cmdRecentItems" EnablePinning="false"/>
+          </ApplicationMenu.RecentItems>
+          <MenuGroup>
+            <Button CommandName="actImportStd"/>
+            <Button CommandName="actExportStd"/>
+          </MenuGroup>
+          <MenuGroup>
+            <Button CommandName="actChangeUser"/>
+          </MenuGroup>
+          <MenuGroup>
+            <Button CommandName="actOpenArchive"/>
+            <Button CommandName="actSaveArchive"/>
+          </MenuGroup>
+          <MenuGroup>
+            <Button CommandName="actQuitter"/>
+          </MenuGroup>
+        </ApplicationMenu>
+      </Ribbon.ApplicationMenu>
+      <Ribbon.HelpButton>
+        <HelpButton CommandName="actAbout"/>
+      </Ribbon.HelpButton>
+      <Ribbon.QuickAccessToolbar>
+        <QuickAccessToolbar/>
+      </Ribbon.QuickAccessToolbar>
+      <Ribbon.Tabs>
+        <Tab CommandName="tabData">
+          <Tab.ScalingPolicy>
+            <ScalingPolicy>
+              <ScalingPolicy.IdealSizes>
+                <Scale Group="grpProduits" Size="Large"/>
+                <Scale Group="grpSites" Size="Large"/>
+                <Scale Group="grpVehicules" Size="Large"/>
+              </ScalingPolicy.IdealSizes>
+              <Scale Group="grpProduits" Size="Medium"/>
+              <Scale Group="grpSites" Size="Medium"/>
+              <Scale Group="grpVehicules" Size="Medium"/>
+              <Scale Group="grpProduits" Size="Small"/>
+              <Scale Group="grpProduits" Size="Popup"/>
+              <Scale Group="grpSites" Size="Popup"/>
+              <Scale Group="grpVehicules" Size="Popup"/>
+            </ScalingPolicy>
+          </Tab.ScalingPolicy>
+          <Group CommandName="grpProduits">
+            <SizeDefinition>
+              <ControlNameMap>
+                <ControlNameDefinition Name="btnProduits"/>
+                <ControlNameDefinition Name="btnPrestations"/>
+                <ControlNameDefinition Name="btnConditionnements"/>
+                <ControlNameDefinition Name="btnGroupes"/>
+                <ControlNameDefinition Name="btnRognage"/>
+                <ControlNameDefinition Name="btnAjustements"/>
+                <ControlNameDefinition Name="btn7"/>
+              </ControlNameMap>
+              <GroupSizeDefinition Size="Large">
+                <ControlSizeDefinition ImageSize="Large" ControlName="btnProduits"/>
+                <ColumnBreak/>
+                <ControlSizeDefinition ControlName="btnPrestations"/>
+                <ControlSizeDefinition ControlName="btnConditionnements"/>
+                <ControlSizeDefinition ControlName="btnGroupes"/>
+                <ColumnBreak/>
+                <ControlSizeDefinition ControlName="btnRognage"/>
+                <ControlSizeDefinition ControlName="btnAjustements"/>
+                <ControlSizeDefinition IsLabelVisible="false" IsImageVisible="false" ControlName="btn7"/>
+              </GroupSizeDefinition>
+              <GroupSizeDefinition Size="Medium">
+                <ControlSizeDefinition ImageSize="Large" ControlName="btnProduits"/>
+                <ColumnBreak/>
+                <ControlSizeDefinition IsLabelVisible="false" ControlName="btnPrestations"/>
+                <ControlSizeDefinition IsLabelVisible="false" ControlName="btnConditionnements"/>
+                <ControlSizeDefinition IsLabelVisible="false" ControlName="btnGroupes"/>
+                <ColumnBreak/>
+                <ControlSizeDefinition IsLabelVisible="false" ControlName="btnRognage"/>
+                <ControlSizeDefinition IsLabelVisible="false" ControlName="btnAjustements"/>
+                <ControlSizeDefinition IsLabelVisible="false" ControlName="btn7"/>
+              </GroupSizeDefinition>
+              <GroupSizeDefinition Size="Small">
+                <ControlSizeDefinition IsLabelVisible="false" ControlName="btnProduits"/>
+                <ControlSizeDefinition IsLabelVisible="false" ControlName="btnPrestations"/>
+                <ControlSizeDefinition IsLabelVisible="false" ControlName="btnConditionnements"/>
+                <ControlSizeDefinition IsLabelVisible="false" ControlName="btnGroupes"/>
+                <ControlSizeDefinition IsLabelVisible="false" ControlName="btnRognage"/>
+                <ControlSizeDefinition IsLabelVisible="false" ControlName="btnAjustements"/>
+                <ControlSizeDefinition IsLabelVisible="false" ControlName="btn7"/>
+              </GroupSizeDefinition>
+            </SizeDefinition>
+            <Button CommandName="actProduits"/>
+            <Button CommandName="actPrestations"/>
+            <Button CommandName="actConditionnements"/>
+            <Button CommandName="actGroupes"/>
+            <Button CommandName="actRognage"/>
+            <Button CommandName="actAjustements"/>
+            <Button/>
+          </Group>
+          <Group CommandName="grpSites">
+            <SizeDefinition>
+              <ControlNameMap>
+                <ControlNameDefinition Name="btnSites"/>
+                <ControlNameDefinition Name="btnCategories"/>
+                <ControlNameDefinition Name="btnGroupes"/>
+                <ControlNameDefinition Name="btnTypes"/>
+                <ControlNameDefinition Name="btnFrequences"/>
+              </ControlNameMap>
+              <GroupSizeDefinition Size="Large">
+                <ControlSizeDefinition ImageSize="Large" ControlName="btnSites"/>
+                <ColumnBreak/>
+                <ControlSizeDefinition ControlName="btnCategories"/>
+                <ControlSizeDefinition ControlName="btnGroupes"/>
+                <ControlSizeDefinition ControlName="btnTypes"/>
+                <ColumnBreak/>
+                <ControlSizeDefinition ControlName="btnFrequences"/>
+              </GroupSizeDefinition>
+              <GroupSizeDefinition Size="Medium">
+                <ControlSizeDefinition ImageSize="Large" ControlName="btnSites"/>
+                <ColumnBreak/>
+                <ControlSizeDefinition IsLabelVisible="false" ControlName="btnCategories"/>
+                <ControlSizeDefinition IsLabelVisible="false" ControlName="btnGroupes"/>
+                <ControlSizeDefinition IsLabelVisible="false" ControlName="btnTypes"/>
+                <ColumnBreak/>
+                <ControlSizeDefinition IsLabelVisible="false" ControlName="btnFrequences"/>
+              </GroupSizeDefinition>
+            </SizeDefinition>
+            <Button CommandName="actSites"/>
+            <Button CommandName="actCategories"/>
+            <Button CommandName="actGroupesSites"/>
+            <Button CommandName="actTypesSItes"/>
+            <Button CommandName="actFrequences"/>
+          </Group>
+          <Group CommandName="grpVehicules">
+            <SizeDefinition>
+              <ControlNameMap>
+                <ControlNameDefinition Name="btnVehicules"/>
+              </ControlNameMap>
+              <GroupSizeDefinition Size="Large">
+                <ControlSizeDefinition ImageSize="Large" ControlName="btnVehicules"/>
+              </GroupSizeDefinition>
+              <GroupSizeDefinition Size="Medium">
+                <ControlSizeDefinition ImageSize="Large" IsLabelVisible="false" ControlName="btnVehicules"/>
+              </GroupSizeDefinition>
+              <GroupSizeDefinition Size="Small">
+                <ControlSizeDefinition IsLabelVisible="false" ControlName="btnVehicules"/>
+              </GroupSizeDefinition>
+            </SizeDefinition>
+            <Button CommandName="actVehicules"/>
+          </Group>
+          <Group CommandName="grpZonage" ApplicationModes="1"/>
+          <Group CommandName="grpCatalogues" ApplicationModes="2"/>
+          <Group CommandName="grpVacations" ApplicationModes="3"/>
+        </Tab>
+        <Tab CommandName="tabEconomic"/>
+        <Tab CommandName="tabParametres"/>
+        <Tab CommandName="tabCartographie"/>
+        <Tab CommandName="tabOperations"/>
+        <Tab CommandName="tabOutils">
+          <Group CommandName="grpBdd" SizeDefinition="OneButton">
+            <DropDownButton CommandName="actBdd">
+              <Button CommandName="actBddNew"/>
+              <Button CommandName="actBddMaj"/>
+              <Button CommandName="actBddSQL"/>
+            </DropDownButton>
+          </Group>
+        </Tab>
+      </Ribbon.Tabs>
+    </Ribbon>
+    <ContextPopup/>
+  </Application.Views>
+</Application>
+<!--ResourceName Value="MyRibbon"-->

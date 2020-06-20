@@ -1,0 +1,365 @@
+// ******************************************************************************
+// * This is an automatically generated file containing the ribbon resource for *
+// * your application.                                                          *
+// ******************************************************************************
+
+#include ".\MyRibbon.h"
+
+STRINGTABLE 
+BEGIN
+    actAbout_LabelTitle_RESID L"A propos" /* LabelTitle actAbout_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    actAbout_TooltipTitle_RESID L"A propos (F1)" /* TooltipTitle actAbout_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    actAjustements_LabelTitle_RESID L"Ajustement" /* LabelTitle actAjustements_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    actBdd_LabelTitle_RESID L"Base de donn\x00e9es" /* LabelTitle actBdd_LabelTitle_RESID: (null) */
+END
+
+actBdd_SmallImages_RESID    BITMAP    "Res\\data-16.bmp" /* SmallImages actBdd_SmallImages_RESID: (null) */
+actBdd_LargeImages_RESID    BITMAP    "Res\\data-32.bmp" /* LargeImages actBdd_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    actBddMaj_LabelTitle_RESID L"Mise \x00e0 jour de la base" /* LabelTitle actBddMaj_LabelTitle_RESID: (null) */
+END
+
+actBddMaj_SmallImages_RESID    BITMAP    "Res\\data_refresh-16.bmp" /* SmallImages actBddMaj_SmallImages_RESID: (null) */
+actBddMaj_LargeImages_RESID    BITMAP    "Res\\data_refresh-32.bmp" /* LargeImages actBddMaj_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    actBddNew_LabelTitle_RESID L"Nouvelle base de donn\x00e9es" /* LabelTitle actBddNew_LabelTitle_RESID: (null) */
+END
+
+actBddNew_SmallImages_RESID    BITMAP    "Res\\data_new-16.bmp" /* SmallImages actBddNew_SmallImages_RESID: (null) */
+actBddNew_LargeImages_RESID    BITMAP    "Res\\data_new-32.bmp" /* LargeImages actBddNew_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    actBddSQL_LabelTitle_RESID L"Editeur SQL" /* LabelTitle actBddSQL_LabelTitle_RESID: (null) */
+END
+
+actBddSQL_SmallImages_RESID    BITMAP    "Res\\data_view-16.bmp" /* SmallImages actBddSQL_SmallImages_RESID: (null) */
+actBddSQL_LargeImages_RESID    BITMAP    "Res\\data_view-32.bmp" /* LargeImages actBddSQL_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    actCategories_LabelTitle_RESID L"Cat\x00e9gories" /* LabelTitle actCategories_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    actCategories_TooltipTitle_RESID L"Cat\x00e9gories" /* TooltipTitle actCategories_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    actCategories_TooltipDescription_RESID L"Cat\x00e9gories horaires et logistiques des sites logistiques" /* TooltipDescription actCategories_TooltipDescription_RESID: (null) */
+END
+
+actCategories_SmallImages_RESID    BITMAP    "Res\\flag_blue_unknown-16.bmp" /* SmallImages actCategories_SmallImages_RESID: (null) */
+actCategories_LargeImages_RESID    BITMAP    "Res\\flag_blue_unknown-32.bmp" /* LargeImages actCategories_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    actChangeUser_LabelTitle_RESID L"Changer d'utilisateur" /* LabelTitle actChangeUser_LabelTitle_RESID: (null) */
+END
+
+actChangeUser_SmallImages_RESID    BITMAP    "Res\\id_card_replace-16.bmp" /* SmallImages actChangeUser_SmallImages_RESID: (null) */
+actChangeUser_LargeImages_RESID    BITMAP    "Res\\id_card_replace-32.bmp" /* LargeImages actChangeUser_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    actConditionnements_LabelTitle_RESID L"Conditionnements" /* LabelTitle actConditionnements_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    actConditionnements_TooltipTitle_RESID L"Conditionnements" /* TooltipTitle actConditionnements_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    actConditionnements_TooltipDescription_RESID L"Gestion des conditionnements des produits" /* TooltipDescription actConditionnements_TooltipDescription_RESID: (null) */
+END
+
+actConditionnements_SmallImages_RESID    BITMAP    "Res\\package_ok-16.bmp" /* SmallImages actConditionnements_SmallImages_RESID: (null) */
+actConditionnements_LargeImages_RESID    BITMAP    "Res\\package_ok-32.bmp" /* LargeImages actConditionnements_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    actExportStd_LabelTitle_RESID L"Exportation standard" /* LabelTitle actExportStd_LabelTitle_RESID: (null) */
+END
+
+actExportStd_SmallImages_RESID    BITMAP    "Res\\export2-16.bmp" /* SmallImages actExportStd_SmallImages_RESID: (null) */
+actExportStd_LargeImages_RESID    BITMAP    "Res\\export2-32.bmp" /* LargeImages actExportStd_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    actFrequences_LabelTitle_RESID L"Fr\x00e9quences" /* LabelTitle actFrequences_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    actFrequences_TooltipTitle_RESID L"Fr\x00e9quences" /* TooltipTitle actFrequences_TooltipTitle_RESID: (null) */
+END
+
+actFrequences_SmallImages_RESID    BITMAP    "Res\\flag_blue_clock-16.bmp" /* SmallImages actFrequences_SmallImages_RESID: (null) */
+actFrequences_LargeImages_RESID    BITMAP    "Res\\flag_blue_clock-32.bmp" /* LargeImages actFrequences_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    actGroupes_LabelTitle_RESID L"Groupes" /* LabelTitle actGroupes_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    actGroupes_TooltipTitle_RESID L"Groupes" /* TooltipTitle actGroupes_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    actGroupes_TooltipDescription_RESID L"Gestion des groupes de produit" /* TooltipDescription actGroupes_TooltipDescription_RESID: (null) */
+END
+
+actGroupes_SmallImages_RESID    BITMAP    "Res\\package_delete-16.bmp" /* SmallImages actGroupes_SmallImages_RESID: (null) */
+actGroupes_LargeImages_RESID    BITMAP    "Res\\package_delete-32.bmp" /* LargeImages actGroupes_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    actGroupesSites_LabelTitle_RESID L"Groupes de sites" /* LabelTitle actGroupesSites_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    actGroupesSites_TooltipTitle_RESID L"Groupes de sites" /* TooltipTitle actGroupesSites_TooltipTitle_RESID: (null) */
+END
+
+actGroupesSites_SmallImages_RESID    BITMAP    "Res\\flag_blue_options-16.bmp" /* SmallImages actGroupesSites_SmallImages_RESID: (null) */
+actGroupesSites_LargeImages_RESID    BITMAP    "Res\\flag_blue_options-32.bmp" /* LargeImages actGroupesSites_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    actImportStd_LabelTitle_RESID L"Importation standard" /* LabelTitle actImportStd_LabelTitle_RESID: (null) */
+END
+
+actImportStd_SmallImages_RESID    BITMAP    "Res\\import2-16.bmp" /* SmallImages actImportStd_SmallImages_RESID: (null) */
+actImportStd_LargeImages_RESID    BITMAP    "Res\\import2-32.bmp" /* LargeImages actImportStd_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    actOpenArchive_LabelTitle_RESID L"Ouvrir une archive" /* LabelTitle actOpenArchive_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    actOpenArchive_TooltipTitle_RESID L"Ouvrir une archive (Ctrl+O)" /* TooltipTitle actOpenArchive_TooltipTitle_RESID: (null) */
+END
+
+actOpenArchive_SmallImages_RESID    BITMAP    "Res\\folder-yellow_open-16.bmp" /* SmallImages actOpenArchive_SmallImages_RESID: (null) */
+actOpenArchive_LargeImages_RESID    BITMAP    "Res\\folder-yellow_open-32.bmp" /* LargeImages actOpenArchive_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    actPrestations_LabelTitle_RESID L"Prestations" /* LabelTitle actPrestations_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    actPrestations_TooltipTitle_RESID L"Prestations" /* TooltipTitle actPrestations_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    actPrestations_TooltipDescription_RESID L"Gestion des prestations" /* TooltipDescription actPrestations_TooltipDescription_RESID: (null) */
+END
+
+actPrestations_SmallImages_RESID    BITMAP    "Res\\package_options-16.bmp" /* SmallImages actPrestations_SmallImages_RESID: (null) */
+actPrestations_LargeImages_RESID    BITMAP    "Res\\package_options-32.bmp" /* LargeImages actPrestations_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    actProduits_LabelTitle_RESID L"Produits" /* LabelTitle actProduits_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    actProduits_TooltipTitle_RESID L"Produits (Alt+P)" /* TooltipTitle actProduits_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    actProduits_TooltipDescription_RESID L"Gestion des produits" /* TooltipDescription actProduits_TooltipDescription_RESID: (null) */
+END
+
+actProduits_SmallImages_RESID    BITMAP    "Res\\package-16.bmp" /* SmallImages actProduits_SmallImages_RESID: (null) */
+actProduits_LargeImages_RESID    BITMAP    "Res\\package-32.bmp" /* LargeImages actProduits_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    actQuitter_LabelTitle_RESID L"Quitter" /* LabelTitle actQuitter_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    actQuitter_TooltipTitle_RESID L"Quitter (ALT+Q)" /* TooltipTitle actQuitter_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    actQuitter_TooltipDescription_RESID L"Quitter l'application" /* TooltipDescription actQuitter_TooltipDescription_RESID: (null) */
+END
+
+actQuitter_SmallImages_RESID    BITMAP    "Res\\Action-exit-icon-16.bmp" /* SmallImages actQuitter_SmallImages_RESID: (null) */
+actQuitter_LargeImages_RESID    BITMAP    "Res\\Action-exit-icon-32.bmp" /* LargeImages actQuitter_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    actRognage_LabelTitle_RESID L"Rognage" /* LabelTitle actRognage_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    actRognage_TooltipTitle_RESID L"Rognage" /* TooltipTitle actRognage_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    actRognage_TooltipDescription_RESID L"Gestion du rognage des quantit\x00e9s" /* TooltipDescription actRognage_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    actSaveArchive_LabelTitle_RESID L"Archiver les donn\x00e9es" /* LabelTitle actSaveArchive_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    actSaveArchive_TooltipTitle_RESID L"Archivers les donn\x00e9es (Ctrl+S)" /* TooltipTitle actSaveArchive_TooltipTitle_RESID: (null) */
+END
+
+actSaveArchive_SmallImages_RESID    BITMAP    "Res\\document-save-5-16.bmp" /* SmallImages actSaveArchive_SmallImages_RESID: (null) */
+actSaveArchive_LargeImages_RESID    BITMAP    "Res\\document-save-5-32.bmp" /* LargeImages actSaveArchive_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    actSites_LabelTitle_RESID L"Sites" /* LabelTitle actSites_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    actSites_TooltipTitle_RESID L"Sites (ALT+S)" /* TooltipTitle actSites_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    actSites_TooltipDescription_RESID L"Gestion des sites logistiques" /* TooltipDescription actSites_TooltipDescription_RESID: (null) */
+END
+
+actSites_SmallImages_RESID    BITMAP    "Res\\flag_blue-16.bmp" /* SmallImages actSites_SmallImages_RESID: (null) */
+actSites_LargeImages_RESID    BITMAP    "Res\\flag_blue-32.bmp" /* LargeImages actSites_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    actTypesSItes_LabelTitle_RESID L"Types de sites" /* LabelTitle actTypesSItes_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    actTypesSItes_TooltipTitle_RESID L"Types de sites" /* TooltipTitle actTypesSItes_TooltipTitle_RESID: (null) */
+END
+
+actTypesSItes_SmallImages_RESID    BITMAP    "Res\\flag_blue_clock_unknown-16.bmp" /* SmallImages actTypesSItes_SmallImages_RESID: (null) */
+actTypesSItes_LargeImages_RESID    BITMAP    "Res\\flag_blue_clock_unknown-32.bmp" /* LargeImages actTypesSItes_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    actVehicules_LabelTitle_RESID L"V\x00e9hicules" /* LabelTitle actVehicules_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    actVehicules_TooltipTitle_RESID L"V\x00e9hicules (Alt+V)" /* TooltipTitle actVehicules_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    actVehicules_TooltipDescription_RESID L"Gestion des v\x00e9hicules" /* TooltipDescription actVehicules_TooltipDescription_RESID: (null) */
+END
+
+actVehicules_SmallImages_RESID    BITMAP    "Res\\truck_blue-16.bmp" /* SmallImages actVehicules_SmallImages_RESID: (null) */
+actVehicules_LargeImages_RESID    BITMAP    "Res\\truck_blue-32.bmp" /* LargeImages actVehicules_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    cmdRecentItems_LabelTitle_RESID L"Archives r\x00e9centes" /* LabelTitle cmdRecentItems_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    grpBdd_LabelTitle_RESID L"Base de donn\x00e9es" /* LabelTitle grpBdd_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    grpCatalogues_LabelTitle_RESID L"Catalogues" /* LabelTitle grpCatalogues_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    grpProduits_LabelTitle_RESID L"Produits" /* LabelTitle grpProduits_LabelTitle_RESID: (null) */
+END
+
+grpProduits_SmallImages_RESID    BITMAP    "Res\\package-16.bmp" /* SmallImages grpProduits_SmallImages_RESID: (null) */
+grpProduits_LargeImages_RESID    BITMAP    "Res\\package-32.bmp" /* LargeImages grpProduits_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    grpSites_LabelTitle_RESID L"Sites" /* LabelTitle grpSites_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    grpVacations_LabelTitle_RESID L"Vacations" /* LabelTitle grpVacations_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    grpVehicules_LabelTitle_RESID L"V\x00e9hicules" /* LabelTitle grpVehicules_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    grpZonage_LabelTitle_RESID L"Zonage" /* LabelTitle grpZonage_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    tabCartographie_LabelTitle_RESID L"Cartograpie" /* LabelTitle tabCartographie_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    tabData_LabelTitle_RESID L"Donn\x00e9es && Contraintes" /* LabelTitle tabData_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    tabEconomic_LabelTitle_RESID L"Economic" /* LabelTitle tabEconomic_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    tabOperations_LabelTitle_RESID L"Op\x00e9rations" /* LabelTitle tabOperations_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    tabOutils_LabelTitle_RESID L"Outils" /* LabelTitle tabOutils_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    tabParametres_LabelTitle_RESID L"Param\x00e9trage" /* LabelTitle tabParametres_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    InternalCmd2_LabelTitle_RESID L"Label:InternalCmd2" /* LabelTitle InternalCmd2_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    InternalCmd6_LabelTitle_RESID L"Label:InternalCmd6" /* LabelTitle InternalCmd6_LabelTitle_RESID: (null) */
+END
+
+MYRIBBON_RIBBON    UIFILE    "C:\\Users\\lgirard\\Documents\\GitHUB\\DelphiRioTests\\RibbonFramework\\Ribbon\\MyRibbon.bml"

@@ -1,0 +1,21 @@
+program Project1;
+
+
+
+{$R 'UIRibbon.res' '..\..\RibbonFramework\Lib\UIRibbon.rc'}
+
+uses
+  Vcl.Forms,
+  Unit1 in 'Unit1.pas' {Form1},
+  Vcl.Themes,
+  Vcl.Styles,
+  monribbon in 'Ribbon\monribbon.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.
