@@ -4,6 +4,7 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+<<<<<<< HEAD
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Unit2, Vcl.StdCtrls;
 
 type
@@ -24,6 +25,7 @@ var
 implementation
 
 {$R *.dfm}
+<<<<<<< HEAD
 
 uses Unit3;
 
